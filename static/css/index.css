@@ -242,9 +242,9 @@ a:hover:after{
   width:50%;
 }
 .marquee-wrapper .marquee-block{
-  --total-marquee-items:5;
+  --total-marquee-items:15;
   height: 320px;
-  width: calc(250px * (var(--total-marquee-items)));
+  width: calc(500px * (var(--total-marquee-items)));
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
@@ -263,14 +263,14 @@ a:hover:after{
   font-family: cursive;
 }
 .marquee-inner.to-left{
-  animation: marqueeLeft 25s linear infinite;
+  animation: marqueeLeft 75s linear infinite;
 }
 .marquee-inner.to-right{
   animation: marqueeRight 25s linear infinite;
 }
 .marquee-item{
-  width: 230px;
-  height: 230px;
+  width: 480px;
+  height: 320px;
   display: inline-block;
   margin: 0 10px;
   float: left;
@@ -279,8 +279,8 @@ a:hover:after{
 }
 
 .marquee-item img{
-  width: 230px;
-  height: 160px;
+  width: 480px;
+  height: 240px;
 }
 
 @keyframes marqueeLeft{
