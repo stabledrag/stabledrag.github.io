@@ -242,7 +242,7 @@ a:hover:after{
   width:50%;
 }
 .marquee-wrapper .marquee-block{
-  --total-marquee-items:15;
+  --total-marquee-items:13;
   height: 320px;
   width: calc(500px * (var(--total-marquee-items)));
   overflow: hidden;
